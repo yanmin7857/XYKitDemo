@@ -1,0 +1,44 @@
+//
+//  NSNumber+XYNumber.h
+//  XYKit
+//  https://github.com/remember17/XYKit
+//  Created by 吴浩 on 2017/6/7.
+
+
+#import <Foundation/Foundation.h>
+
+@interface NSNumber (XYNumber)
+
+/** 对应的罗马数字 */
+- (NSString *)romanNumeral;
+
+/** 转换为百分比字符串 */
+- (NSString*)toDisplayPercentageWithDigit:(NSInteger)digit;
+
+/**
+ 四舍五入
+
+ @param digit 限制最大位数
+ @return 四舍五入后的结果
+ */
+- (NSNumber*)doRoundWithDigit:(NSUInteger)digit;
+
+/**
+ 上取整
+
+ @param digit 限制最大位数
+ @return 上取整后的结果
+ */
+- (NSNumber*)doCeilWithDigit:(NSUInteger)digit;
+
+/**
+ 下取整
+
+ @param digit 限制最大位数
+ @return 下取整后的结果
+ */
+- (NSNumber*)doFloorWithDigit:(NSUInteger)digit;
+
+- (NSString*)toDisplayNumberWithDigit:(NSInteger)digit;
+
+@end

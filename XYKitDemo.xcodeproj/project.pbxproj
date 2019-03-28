@@ -13,6 +13,32 @@
 		E37AD31A224CCCCA000AB0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37AD319224CCCCA000AB0B1 /* Assets.xcassets */; };
 		E37AD31D224CCCCA000AB0B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37AD31B224CCCCA000AB0B1 /* LaunchScreen.storyboard */; };
 		E37AD320224CCCCA000AB0B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD31F224CCCCA000AB0B1 /* main.m */; };
+		E37AD35D224CCD30000AB0B1 /* UIDevice+XYDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD328224CCD2F000AB0B1 /* UIDevice+XYDevice.m */; };
+		E37AD35E224CCD30000AB0B1 /* CALayer+XYLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD32A224CCD2F000AB0B1 /* CALayer+XYLayer.m */; };
+		E37AD35F224CCD30000AB0B1 /* NSString+XYString.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD32C224CCD2F000AB0B1 /* NSString+XYString.m */; };
+		E37AD360224CCD30000AB0B1 /* NSNumber+XYNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD32D224CCD2F000AB0B1 /* NSNumber+XYNumber.m */; };
+		E37AD361224CCD30000AB0B1 /* NSObject+XYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD32E224CCD2F000AB0B1 /* NSObject+XYObject.m */; };
+		E37AD362224CCD30000AB0B1 /* UIAlertController+XYAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD335224CCD2F000AB0B1 /* UIAlertController+XYAlert.m */; };
+		E37AD363224CCD30000AB0B1 /* UILabel+XYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD336224CCD2F000AB0B1 /* UILabel+XYLabel.m */; };
+		E37AD364224CCD30000AB0B1 /* Foundation+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD339224CCD2F000AB0B1 /* Foundation+Safe.m */; };
+		E37AD365224CCD30000AB0B1 /* NSDictionary+XYDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD33A224CCD2F000AB0B1 /* NSDictionary+XYDictionary.m */; };
+		E37AD366224CCD30000AB0B1 /* XYMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD33C224CCD2F000AB0B1 /* XYMethods.m */; };
+		E37AD367224CCD30000AB0B1 /* UIView+XYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD33D224CCD2F000AB0B1 /* UIView+XYView.m */; };
+		E37AD368224CCD30000AB0B1 /* UIImageView+XYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD33E224CCD2F000AB0B1 /* UIImageView+XYImageView.m */; };
+		E37AD369224CCD30000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD33F224CCD2F000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m */; };
+		E37AD36A224CCD30000AB0B1 /* UIImage+XYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD341224CCD2F000AB0B1 /* UIImage+XYImage.m */; };
+		E37AD36B224CCD30000AB0B1 /* NSDate+XYDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD344224CCD2F000AB0B1 /* NSDate+XYDate.m */; };
+		E37AD36C224CCD30000AB0B1 /* NSArray+XYArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD346224CCD2F000AB0B1 /* NSArray+XYArray.m */; };
+		E37AD36D224CCD30000AB0B1 /* NSObject+XYRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD348224CCD2F000AB0B1 /* NSObject+XYRuntime.m */; };
+		E37AD36E224CCD30000AB0B1 /* UIColor+XYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD349224CCD2F000AB0B1 /* UIColor+XYColor.m */; };
+		E37AD36F224CCD30000AB0B1 /* UINavigationController+XYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD34A224CCD2F000AB0B1 /* UINavigationController+XYNavigationController.m */; };
+		E37AD370224CCD30000AB0B1 /* UITableView+XYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD34B224CCD2F000AB0B1 /* UITableView+XYTableView.m */; };
+		E37AD371224CCD30000AB0B1 /* UIButton+XYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD34C224CCD2F000AB0B1 /* UIButton+XYButton.m */; };
+		E37AD372224CCD30000AB0B1 /* UIScrollView+XYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD34D224CCD2F000AB0B1 /* UIScrollView+XYScrollView.m */; };
+		E37AD373224CCD30000AB0B1 /* NSFileManager+XYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD353224CCD2F000AB0B1 /* NSFileManager+XYFileManager.m */; };
+		E37AD374224CCD30000AB0B1 /* NSTimer+XYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD354224CCD2F000AB0B1 /* NSTimer+XYTimer.m */; };
+		E37AD375224CCD30000AB0B1 /* UIViewController+XYVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD357224CCD2F000AB0B1 /* UIViewController+XYVC.m */; };
+		E37AD378224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD377224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +52,62 @@
 		E37AD31C224CCCCA000AB0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E37AD31E224CCCCA000AB0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37AD31F224CCCCA000AB0B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E37AD327224CCD2F000AB0B1 /* NSArray+XYArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XYArray.h"; sourceTree = "<group>"; };
+		E37AD328224CCD2F000AB0B1 /* UIDevice+XYDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XYDevice.m"; sourceTree = "<group>"; };
+		E37AD329224CCD2F000AB0B1 /* NSDate+XYDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XYDate.h"; sourceTree = "<group>"; };
+		E37AD32A224CCD2F000AB0B1 /* CALayer+XYLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XYLayer.m"; sourceTree = "<group>"; };
+		E37AD32B224CCD2F000AB0B1 /* UIImage+XYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYImage.h"; sourceTree = "<group>"; };
+		E37AD32C224CCD2F000AB0B1 /* NSString+XYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XYString.m"; sourceTree = "<group>"; };
+		E37AD32D224CCD2F000AB0B1 /* NSNumber+XYNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XYNumber.m"; sourceTree = "<group>"; };
+		E37AD32E224CCD2F000AB0B1 /* NSObject+XYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYObject.m"; sourceTree = "<group>"; };
+		E37AD32F224CCD2F000AB0B1 /* UIScrollView+XYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYScrollView.h"; sourceTree = "<group>"; };
+		E37AD330224CCD2F000AB0B1 /* UIButton+XYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XYButton.h"; sourceTree = "<group>"; };
+		E37AD331224CCD2F000AB0B1 /* UITableView+XYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XYTableView.h"; sourceTree = "<group>"; };
+		E37AD332224CCD2F000AB0B1 /* UINavigationController+XYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XYNavigationController.h"; sourceTree = "<group>"; };
+		E37AD333224CCD2F000AB0B1 /* UIColor+XYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYColor.h"; sourceTree = "<group>"; };
+		E37AD334224CCD2F000AB0B1 /* NSObject+XYRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYRuntime.h"; sourceTree = "<group>"; };
+		E37AD335224CCD2F000AB0B1 /* UIAlertController+XYAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+XYAlert.m"; sourceTree = "<group>"; };
+		E37AD336224CCD2F000AB0B1 /* UILabel+XYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XYLabel.m"; sourceTree = "<group>"; };
+		E37AD337224CCD2F000AB0B1 /* NSTimer+XYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XYTimer.h"; sourceTree = "<group>"; };
+		E37AD338224CCD2F000AB0B1 /* NSFileManager+XYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XYFileManager.h"; sourceTree = "<group>"; };
+		E37AD339224CCD2F000AB0B1 /* Foundation+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Safe.m"; sourceTree = "<group>"; };
+		E37AD33A224CCD2F000AB0B1 /* NSDictionary+XYDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XYDictionary.m"; sourceTree = "<group>"; };
+		E37AD33B224CCD2F000AB0B1 /* SerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializeKit.h; sourceTree = "<group>"; };
+		E37AD33C224CCD2F000AB0B1 /* XYMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMethods.m; sourceTree = "<group>"; };
+		E37AD33D224CCD2F000AB0B1 /* UIView+XYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYView.m"; sourceTree = "<group>"; };
+		E37AD33E224CCD2F000AB0B1 /* UIImageView+XYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XYImageView.m"; sourceTree = "<group>"; };
+		E37AD33F224CCD2F000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XYBarButtonItem.m"; sourceTree = "<group>"; };
+		E37AD340224CCD2F000AB0B1 /* UIViewController+XYVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XYVC.h"; sourceTree = "<group>"; };
+		E37AD341224CCD2F000AB0B1 /* UIImage+XYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYImage.m"; sourceTree = "<group>"; };
+		E37AD342224CCD2F000AB0B1 /* XYSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSingleton.h; sourceTree = "<group>"; };
+		E37AD343224CCD2F000AB0B1 /* CALayer+XYLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XYLayer.h"; sourceTree = "<group>"; };
+		E37AD344224CCD2F000AB0B1 /* NSDate+XYDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XYDate.m"; sourceTree = "<group>"; };
+		E37AD345224CCD2F000AB0B1 /* UIDevice+XYDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XYDevice.h"; sourceTree = "<group>"; };
+		E37AD346224CCD2F000AB0B1 /* NSArray+XYArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XYArray.m"; sourceTree = "<group>"; };
+		E37AD347224CCD2F000AB0B1 /* UIAlertController+XYAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+XYAlert.h"; sourceTree = "<group>"; };
+		E37AD348224CCD2F000AB0B1 /* NSObject+XYRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYRuntime.m"; sourceTree = "<group>"; };
+		E37AD349224CCD2F000AB0B1 /* UIColor+XYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYColor.m"; sourceTree = "<group>"; };
+		E37AD34A224CCD2F000AB0B1 /* UINavigationController+XYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XYNavigationController.m"; sourceTree = "<group>"; };
+		E37AD34B224CCD2F000AB0B1 /* UITableView+XYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XYTableView.m"; sourceTree = "<group>"; };
+		E37AD34C224CCD2F000AB0B1 /* UIButton+XYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XYButton.m"; sourceTree = "<group>"; };
+		E37AD34D224CCD2F000AB0B1 /* UIScrollView+XYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYScrollView.m"; sourceTree = "<group>"; };
+		E37AD34E224CCD2F000AB0B1 /* NSObject+XYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYObject.h"; sourceTree = "<group>"; };
+		E37AD34F224CCD2F000AB0B1 /* NSNumber+XYNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XYNumber.h"; sourceTree = "<group>"; };
+		E37AD350224CCD2F000AB0B1 /* NSString+XYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XYString.h"; sourceTree = "<group>"; };
+		E37AD351224CCD2F000AB0B1 /* XYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYKit.h; sourceTree = "<group>"; };
+		E37AD352224CCD2F000AB0B1 /* Foundation+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foundation+Safe.h"; sourceTree = "<group>"; };
+		E37AD353224CCD2F000AB0B1 /* NSFileManager+XYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XYFileManager.m"; sourceTree = "<group>"; };
+		E37AD354224CCD2F000AB0B1 /* NSTimer+XYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XYTimer.m"; sourceTree = "<group>"; };
+		E37AD355224CCD2F000AB0B1 /* UILabel+XYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XYLabel.h"; sourceTree = "<group>"; };
+		E37AD356224CCD2F000AB0B1 /* UIBarButtonItem+XYBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XYBarButtonItem.h"; sourceTree = "<group>"; };
+		E37AD357224CCD2F000AB0B1 /* UIViewController+XYVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XYVC.m"; sourceTree = "<group>"; };
+		E37AD358224CCD2F000AB0B1 /* XYMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMethods.h; sourceTree = "<group>"; };
+		E37AD359224CCD2F000AB0B1 /* UIView+XYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYView.h"; sourceTree = "<group>"; };
+		E37AD35A224CCD2F000AB0B1 /* UIImageView+XYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XYImageView.h"; sourceTree = "<group>"; };
+		E37AD35B224CCD2F000AB0B1 /* XYMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMacro.h; sourceTree = "<group>"; };
+		E37AD35C224CCD2F000AB0B1 /* NSDictionary+XYDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XYDictionary.h"; sourceTree = "<group>"; };
+		E37AD376224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XYButtonContentLayout.h"; sourceTree = "<group>"; };
+		E37AD377224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XYButtonContentLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +124,7 @@
 		E37AD304224CCCC9000AB0B1 = {
 			isa = PBXGroup;
 			children = (
+				E37AD326224CCD2F000AB0B1 /* XYKit */,
 				E37AD30F224CCCC9000AB0B1 /* XYKitDemo */,
 				E37AD30E224CCCC9000AB0B1 /* Products */,
 			);
@@ -69,6 +152,69 @@
 				E37AD31F224CCCCA000AB0B1 /* main.m */,
 			);
 			path = XYKitDemo;
+			sourceTree = "<group>";
+		};
+		E37AD326224CCD2F000AB0B1 /* XYKit */ = {
+			isa = PBXGroup;
+			children = (
+				E37AD343224CCD2F000AB0B1 /* CALayer+XYLayer.h */,
+				E37AD32A224CCD2F000AB0B1 /* CALayer+XYLayer.m */,
+				E37AD352224CCD2F000AB0B1 /* Foundation+Safe.h */,
+				E37AD339224CCD2F000AB0B1 /* Foundation+Safe.m */,
+				E37AD327224CCD2F000AB0B1 /* NSArray+XYArray.h */,
+				E37AD346224CCD2F000AB0B1 /* NSArray+XYArray.m */,
+				E37AD329224CCD2F000AB0B1 /* NSDate+XYDate.h */,
+				E37AD344224CCD2F000AB0B1 /* NSDate+XYDate.m */,
+				E37AD35C224CCD2F000AB0B1 /* NSDictionary+XYDictionary.h */,
+				E37AD33A224CCD2F000AB0B1 /* NSDictionary+XYDictionary.m */,
+				E37AD338224CCD2F000AB0B1 /* NSFileManager+XYFileManager.h */,
+				E37AD353224CCD2F000AB0B1 /* NSFileManager+XYFileManager.m */,
+				E37AD34F224CCD2F000AB0B1 /* NSNumber+XYNumber.h */,
+				E37AD32D224CCD2F000AB0B1 /* NSNumber+XYNumber.m */,
+				E37AD34E224CCD2F000AB0B1 /* NSObject+XYObject.h */,
+				E37AD32E224CCD2F000AB0B1 /* NSObject+XYObject.m */,
+				E37AD334224CCD2F000AB0B1 /* NSObject+XYRuntime.h */,
+				E37AD348224CCD2F000AB0B1 /* NSObject+XYRuntime.m */,
+				E37AD350224CCD2F000AB0B1 /* NSString+XYString.h */,
+				E37AD32C224CCD2F000AB0B1 /* NSString+XYString.m */,
+				E37AD337224CCD2F000AB0B1 /* NSTimer+XYTimer.h */,
+				E37AD354224CCD2F000AB0B1 /* NSTimer+XYTimer.m */,
+				E37AD33B224CCD2F000AB0B1 /* SerializeKit.h */,
+				E37AD347224CCD2F000AB0B1 /* UIAlertController+XYAlert.h */,
+				E37AD335224CCD2F000AB0B1 /* UIAlertController+XYAlert.m */,
+				E37AD356224CCD2F000AB0B1 /* UIBarButtonItem+XYBarButtonItem.h */,
+				E37AD33F224CCD2F000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m */,
+				E37AD330224CCD2F000AB0B1 /* UIButton+XYButton.h */,
+				E37AD34C224CCD2F000AB0B1 /* UIButton+XYButton.m */,
+				E37AD376224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.h */,
+				E37AD377224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m */,
+				E37AD333224CCD2F000AB0B1 /* UIColor+XYColor.h */,
+				E37AD349224CCD2F000AB0B1 /* UIColor+XYColor.m */,
+				E37AD345224CCD2F000AB0B1 /* UIDevice+XYDevice.h */,
+				E37AD328224CCD2F000AB0B1 /* UIDevice+XYDevice.m */,
+				E37AD32B224CCD2F000AB0B1 /* UIImage+XYImage.h */,
+				E37AD341224CCD2F000AB0B1 /* UIImage+XYImage.m */,
+				E37AD35A224CCD2F000AB0B1 /* UIImageView+XYImageView.h */,
+				E37AD33E224CCD2F000AB0B1 /* UIImageView+XYImageView.m */,
+				E37AD355224CCD2F000AB0B1 /* UILabel+XYLabel.h */,
+				E37AD336224CCD2F000AB0B1 /* UILabel+XYLabel.m */,
+				E37AD332224CCD2F000AB0B1 /* UINavigationController+XYNavigationController.h */,
+				E37AD34A224CCD2F000AB0B1 /* UINavigationController+XYNavigationController.m */,
+				E37AD32F224CCD2F000AB0B1 /* UIScrollView+XYScrollView.h */,
+				E37AD34D224CCD2F000AB0B1 /* UIScrollView+XYScrollView.m */,
+				E37AD331224CCD2F000AB0B1 /* UITableView+XYTableView.h */,
+				E37AD34B224CCD2F000AB0B1 /* UITableView+XYTableView.m */,
+				E37AD359224CCD2F000AB0B1 /* UIView+XYView.h */,
+				E37AD33D224CCD2F000AB0B1 /* UIView+XYView.m */,
+				E37AD340224CCD2F000AB0B1 /* UIViewController+XYVC.h */,
+				E37AD357224CCD2F000AB0B1 /* UIViewController+XYVC.m */,
+				E37AD351224CCD2F000AB0B1 /* XYKit.h */,
+				E37AD35B224CCD2F000AB0B1 /* XYMacro.h */,
+				E37AD358224CCD2F000AB0B1 /* XYMethods.h */,
+				E37AD33C224CCD2F000AB0B1 /* XYMethods.m */,
+				E37AD342224CCD2F000AB0B1 /* XYSingleton.h */,
+			);
+			path = XYKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +287,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37AD360224CCD30000AB0B1 /* NSNumber+XYNumber.m in Sources */,
+				E37AD35E224CCD30000AB0B1 /* CALayer+XYLayer.m in Sources */,
+				E37AD35F224CCD30000AB0B1 /* NSString+XYString.m in Sources */,
+				E37AD368224CCD30000AB0B1 /* UIImageView+XYImageView.m in Sources */,
+				E37AD372224CCD30000AB0B1 /* UIScrollView+XYScrollView.m in Sources */,
 				E37AD315224CCCC9000AB0B1 /* ViewController.m in Sources */,
+				E37AD363224CCD30000AB0B1 /* UILabel+XYLabel.m in Sources */,
+				E37AD374224CCD30000AB0B1 /* NSTimer+XYTimer.m in Sources */,
+				E37AD36C224CCD30000AB0B1 /* NSArray+XYArray.m in Sources */,
+				E37AD365224CCD30000AB0B1 /* NSDictionary+XYDictionary.m in Sources */,
+				E37AD375224CCD30000AB0B1 /* UIViewController+XYVC.m in Sources */,
+				E37AD370224CCD30000AB0B1 /* UITableView+XYTableView.m in Sources */,
 				E37AD320224CCCCA000AB0B1 /* main.m in Sources */,
+				E37AD364224CCD30000AB0B1 /* Foundation+Safe.m in Sources */,
+				E37AD366224CCD30000AB0B1 /* XYMethods.m in Sources */,
+				E37AD36A224CCD30000AB0B1 /* UIImage+XYImage.m in Sources */,
+				E37AD36F224CCD30000AB0B1 /* UINavigationController+XYNavigationController.m in Sources */,
+				E37AD371224CCD30000AB0B1 /* UIButton+XYButton.m in Sources */,
+				E37AD35D224CCD30000AB0B1 /* UIDevice+XYDevice.m in Sources */,
+				E37AD367224CCD30000AB0B1 /* UIView+XYView.m in Sources */,
+				E37AD369224CCD30000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m in Sources */,
+				E37AD373224CCD30000AB0B1 /* NSFileManager+XYFileManager.m in Sources */,
 				E37AD312224CCCC9000AB0B1 /* AppDelegate.m in Sources */,
+				E37AD36E224CCD30000AB0B1 /* UIColor+XYColor.m in Sources */,
+				E37AD362224CCD30000AB0B1 /* UIAlertController+XYAlert.m in Sources */,
+				E37AD36D224CCD30000AB0B1 /* NSObject+XYRuntime.m in Sources */,
+				E37AD361224CCD30000AB0B1 /* NSObject+XYObject.m in Sources */,
+				E37AD36B224CCD30000AB0B1 /* NSDate+XYDate.m in Sources */,
+				E37AD378224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
