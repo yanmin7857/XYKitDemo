@@ -1,7 +1,7 @@
 //
 //  XYKit.h
 //  XYKit
-//  https://github.com/remember17/XYKit
+//  https://github.com/yanmin7857/XYKitDemo
 //  Created by 吴浩 on 2017/6/15.
 
 

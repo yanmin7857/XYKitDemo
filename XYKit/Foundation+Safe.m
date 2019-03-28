@@ -2,8 +2,8 @@
 //  Foundation+Safe.m
 //  XYKitDemo
 //
-//  Created by 吴浩 on 2018/6/12.
-//  Copyright © 2018年 remember17. All rights reserved.
+//  Created by 小羊 on 2019/3/28.
+
 //
 
 #import "Foundation+Safe.h"

@@ -1,8 +1,8 @@
 //
 //  UIColor+XYColor.h
 //  XYKit
-//  https://github.com/remember17/XYKit
-//  Created by 吴浩 on 2017/6/7.
+//  https://github.com/yanmin7857/XYKitDemo
+//  Created by 小羊 on 2019/3/28.
 
 
 #import <UIKit/UIKit.h>

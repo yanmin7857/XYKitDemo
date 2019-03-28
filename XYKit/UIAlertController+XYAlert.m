@@ -1,7 +1,7 @@
 //
 //  UIAlertController+XYAlert.h
 //  XYKit
-//  https://github.com/remember17/XYKit
+//  https://github.com/yanmin7857/XYKitDemo
 //  Created by 小羊 on 2019/3/28.
 
 
