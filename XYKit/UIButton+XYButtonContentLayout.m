@@ -1,19 +1,15 @@
 //
-//  UIButton+AxcButtonContentLayout.m
-//  AxcUIKit
-//
-//  Created by Axc on 2017/7/7.
-//  Copyright © 2017年 Axc_5324. All rights reserved.
-//
+//  UIButton+XYButtonContentLayout.m
+//  XYUIKit
 
 #import "UIButton+XYButtonContentLayout.h"
 #import <objc/runtime.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-static NSString * const kbuttonContentLayoutTypeKey = @"axcUI_buttonContentLayoutTypeKey";
-static NSString * const kpaddingKey = @"axcUI_paddingKey";
-static NSString * const kpaddingInsetKey = @"axcUI_paddingInsetKey";
+static NSString * const kbuttonContentLayoutTypeKey = @"XYUI_buttonContentLayoutTypeKey";
+static NSString * const kpaddingKey = @"XYUI_paddingKey";
+static NSString * const kpaddingInsetKey = @"XYUI_paddingInsetKey";
 
 
 @implementation UIButton (XYButtonContentLayout)
@@ -36,56 +32,56 @@ static NSString * const kpaddingInsetKey = @"axcUI_paddingInsetKey";
     UIEdgeInsets imageEdge = UIEdgeInsetsZero;
     UIEdgeInsets titleEdge = UIEdgeInsetsZero;
     
-    if (self.axcUI_paddingInset == 0){
-        self.axcUI_paddingInset = 5;
+    if (self.XYUI_paddingInset == 0){
+        self.XYUI_paddingInset = 5;
     }
     
-    switch (self.axcUI_buttonContentLayoutType) {
-        case AxcButtonContentLayoutStyleNormal:{
-            titleEdge = UIEdgeInsetsMake(0, self.axcUI_padding, 0, 0);
-            imageEdge = UIEdgeInsetsMake(0, 0, 0, self.axcUI_padding);
+    switch (self.XYUI_buttonContentLayoutType) {
+        case XYButtonContentLayoutStyleNormal:{
+            titleEdge = UIEdgeInsetsMake(0, self.XYUI_padding, 0, 0);
+            imageEdge = UIEdgeInsetsMake(0, 0, 0, self.XYUI_padding);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         }
             break;
-        case AxcButtonContentLayoutStyleCenterImageRight:{
-            titleEdge = UIEdgeInsetsMake(0, -image_w - self.axcUI_padding, 0, image_w);
-            imageEdge = UIEdgeInsetsMake(0, title_w + self.axcUI_padding, 0, -title_w);
+        case XYButtonContentLayoutStyleCenterImageRight:{
+            titleEdge = UIEdgeInsetsMake(0, -image_w - self.XYUI_padding, 0, image_w);
+            imageEdge = UIEdgeInsetsMake(0, title_w + self.XYUI_padding, 0, -title_w);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         }
             break;
-        case AxcButtonContentLayoutStyleCenterImageTop:{
-            titleEdge = UIEdgeInsetsMake(0, -image_w, -image_h - self.axcUI_padding, 0);
-            imageEdge = UIEdgeInsetsMake(-title_h - self.axcUI_padding, 0, 0, -title_w);
+        case XYButtonContentLayoutStyleCenterImageTop:{
+            titleEdge = UIEdgeInsetsMake(0, -image_w, -image_h - self.XYUI_padding, 0);
+            imageEdge = UIEdgeInsetsMake(-title_h - self.XYUI_padding, 0, 0, -title_w);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         }
             break;
-        case AxcButtonContentLayoutStyleCenterImageBottom:{
-            titleEdge = UIEdgeInsetsMake(-image_h - self.axcUI_padding, -image_w, 0, 0);
-            imageEdge = UIEdgeInsetsMake(0, 0, -title_h - self.axcUI_padding, -title_w);
+        case XYButtonContentLayoutStyleCenterImageBottom:{
+            titleEdge = UIEdgeInsetsMake(-image_h - self.XYUI_padding, -image_w, 0, 0);
+            imageEdge = UIEdgeInsetsMake(0, 0, -title_h - self.XYUI_padding, -title_w);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
         }
             break;
-        case AxcButtonContentLayoutStyleLeftImageLeft:{
-            titleEdge = UIEdgeInsetsMake(0, self.axcUI_padding + self.axcUI_paddingInset, 0, 0);
-            imageEdge = UIEdgeInsetsMake(0, self.axcUI_paddingInset, 0, 0);
+        case XYButtonContentLayoutStyleLeftImageLeft:{
+            titleEdge = UIEdgeInsetsMake(0, self.XYUI_padding + self.XYUI_paddingInset, 0, 0);
+            imageEdge = UIEdgeInsetsMake(0, self.XYUI_paddingInset, 0, 0);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         }
             break;
-        case AxcButtonContentLayoutStyleLeftImageRight:{
-            titleEdge = UIEdgeInsetsMake(0, -image_w + self.axcUI_paddingInset, 0, 0);
-            imageEdge = UIEdgeInsetsMake(0, title_w + self.axcUI_padding + self.axcUI_paddingInset, 0, 0);
+        case XYButtonContentLayoutStyleLeftImageRight:{
+            titleEdge = UIEdgeInsetsMake(0, -image_w + self.XYUI_paddingInset, 0, 0);
+            imageEdge = UIEdgeInsetsMake(0, title_w + self.XYUI_padding + self.XYUI_paddingInset, 0, 0);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         }
             break;
-        case AxcButtonContentLayoutStyleRightImageLeft:{
-            imageEdge = UIEdgeInsetsMake(0, 0, 0, self.axcUI_padding + self.axcUI_paddingInset);
-            titleEdge = UIEdgeInsetsMake(0, 0, 0, self.axcUI_paddingInset);
+        case XYButtonContentLayoutStyleRightImageLeft:{
+            imageEdge = UIEdgeInsetsMake(0, 0, 0, self.XYUI_padding + self.XYUI_paddingInset);
+            titleEdge = UIEdgeInsetsMake(0, 0, 0, self.XYUI_paddingInset);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
         }
             break;
-        case AxcButtonContentLayoutStyleRightImageRight:{
-            titleEdge = UIEdgeInsetsMake(0, -self.frame.size.width / 2, 0, image_w + self.axcUI_padding + self.axcUI_paddingInset);
-            imageEdge = UIEdgeInsetsMake(0, 0, 0, -title_w + self.axcUI_paddingInset);
+        case XYButtonContentLayoutStyleRightImageRight:{
+            titleEdge = UIEdgeInsetsMake(0, -self.frame.size.width / 2, 0, image_w + self.XYUI_padding + self.XYUI_paddingInset);
+            imageEdge = UIEdgeInsetsMake(0, 0, 0, -title_w + self.XYUI_paddingInset);
             self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
         }
             break;
@@ -98,43 +94,43 @@ static NSString * const kpaddingInsetKey = @"axcUI_paddingInsetKey";
 
 
 #pragma mark - SET
-- (void)setAxcUI_buttonContentLayoutType:(AxcButtonContentLayoutStyle)axcUI_buttonContentLayoutType{
+- (void)setXYUI_buttonContentLayoutType:(XYButtonContentLayoutStyle)XYUI_buttonContentLayoutType{
     [self willChangeValueForKey:kbuttonContentLayoutTypeKey];
     objc_setAssociatedObject(self, &kbuttonContentLayoutTypeKey,
-                             @(axcUI_buttonContentLayoutType),
+                             @(XYUI_buttonContentLayoutType),
                              OBJC_ASSOCIATION_ASSIGN);
     [self didChangeValueForKey:kbuttonContentLayoutTypeKey];
     [self setupButtonLayout];
 }
 
-- (AxcButtonContentLayoutStyle)axcUI_buttonContentLayoutType{
+- (XYButtonContentLayoutStyle)XYUI_buttonContentLayoutType{
     return [objc_getAssociatedObject(self, &kbuttonContentLayoutTypeKey) integerValue];
 }
 
-- (void)setAxcUI_padding:(CGFloat)axcUI_padding{
+- (void)setXYUI_padding:(CGFloat)XYUI_padding{
     [self willChangeValueForKey:kpaddingKey];
     objc_setAssociatedObject(self, &kpaddingKey,
-                             @(axcUI_padding),
+                             @(XYUI_padding),
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     [self didChangeValueForKey:kpaddingKey];
 
     [self setupButtonLayout];
 }
 
-- (CGFloat)axcUI_padding{
+- (CGFloat)XYUI_padding{
     return [objc_getAssociatedObject(self, &kpaddingKey) floatValue];
 }
 
-- (void)setAxcUI_paddingInset:(CGFloat)axcUI_paddingInset{
+- (void)setXYUI_paddingInset:(CGFloat)XYUI_paddingInset{
     [self willChangeValueForKey:kpaddingInsetKey];
     objc_setAssociatedObject(self, &kpaddingInsetKey,
-                             @(axcUI_paddingInset),
+                             @(XYUI_paddingInset),
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     [self didChangeValueForKey:kpaddingInsetKey];
     [self setupButtonLayout];
 }
 
-- (CGFloat)axcUI_paddingInset{
+- (CGFloat)XYUI_paddingInset{
     return [objc_getAssociatedObject(self, &kpaddingInsetKey) floatValue];
 }
 
