@@ -16,9 +16,7 @@ static const void * bc_name = @"block";
 
 #define TEMPLATE_URL @"mgj://search/:keyword/:present"
 + (void)load{
-//    @weakify(self);
     [MGJRouter registerURLPattern:TEMPLATE_URL  toHandler:^(NSDictionary *routerParameters) {
-//        @strongify(self);
         NSLog(@"routerParameters[keyword]:%@ %@", routerParameters[@"keyword"],routerParameters); // Hangzhou
         
         UIViewController *vc = [[NSClassFromString(routerParameters[@"keyword"]) alloc] init];
@@ -55,9 +53,7 @@ static const void * bc_name = @"block";
 }
 
 - (void)presentController:(NSString *)name params:(NSDictionary *)param completion:(void (^)(id result))completion{
-    
-//    NSString *url = [NSString stringWithFormat:@"%@/:present",TEMPLATE_URL];
-    
+
     [MGJRouter openURL:[MGJRouter generateURLWithPattern:TEMPLATE_URL parameters:@[name,@"1"]]                                      withUserInfo:param
             completion:^(id result) {
                 if (completion) {

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XY_Kit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "通过为UIFontDescriptor添加category方法实现动态改变指定控件（如UILabel UIButtonLabel等）的字体大小。"
   s.description  = <<-DESC
   通过为UIFontDescriptor添加category方法实现动态改变指定控件（如UILabel UIButtonLabel等）的字体大小!!!
