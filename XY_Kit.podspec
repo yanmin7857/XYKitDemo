@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   s.platform     = :ios
+  s.framework = 'MGJRouter'
 end

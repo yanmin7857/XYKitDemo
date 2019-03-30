@@ -21,7 +21,6 @@ static const void * bc_name = @"block";
 //        @strongify(self);
         NSLog(@"routerParameters[keyword]:%@ %@", routerParameters[@"keyword"],routerParameters); // Hangzhou
         
-        
         UIViewController *vc = [[NSClassFromString(routerParameters[@"keyword"]) alloc] init];
         vc.param = [routerParameters objectForKey:MGJRouterParameterUserInfo];
         vc.completion = routerParameters[MGJRouterParameterCompletion];
