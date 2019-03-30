@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "XY_Kit"
-  s.version      = "0.0.2"
-  s.summary      = "通过为UIFontDescriptor添加category方法实现动态改变指定控件（如UILabel UIButtonLabel等）的字体大小。"
+  s.version      = "0.0.3"
+  s.summary      = "基础分类及路由分类"
   s.description  = <<-DESC
-  通过为UIFontDescriptor添加category方法实现动态改变指定控件（如UILabel UIButtonLabel等）的字体大小!!!
+  基础分类及路由分类 页面跳转再也不需要引入文件啦！
                    DESC
 
   s.homepage     = "https://github.com/yanmin7857/XYKitDemo"
@@ -19,5 +19,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   s.platform     = :ios
-  s.framework = 'MGJRouter'
+  s.dependency 'MGJRouter'
+  s.prefix_header_contents =
+    '#import "MGJRouter.h"'
 end
