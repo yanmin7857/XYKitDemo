@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56DEFAD4C596FD0A71D30FD1 /* libPods-XYKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6990A1DB7A7DB0BA77EEE937 /* libPods-XYKitDemo.a */; };
 		E37AD312224CCCC9000AB0B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD311224CCCC9000AB0B1 /* AppDelegate.m */; };
 		E37AD315224CCCC9000AB0B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD314224CCCC9000AB0B1 /* ViewController.m */; };
 		E37AD318224CCCC9000AB0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37AD316224CCCC9000AB0B1 /* Main.storyboard */; };
@@ -39,9 +40,13 @@
 		E37AD374224CCD30000AB0B1 /* NSTimer+XYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD354224CCD2F000AB0B1 /* NSTimer+XYTimer.m */; };
 		E37AD375224CCD30000AB0B1 /* UIViewController+XYVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD357224CCD2F000AB0B1 /* UIViewController+XYVC.m */; };
 		E37AD378224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AD377224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m */; };
+		E3B83745224E23D900F1FDCF /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B83744224E23D900F1FDCF /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064290598C0828D98F8F5BD9 /* Pods-XYKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYKitDemo.release.xcconfig"; path = "Target Support Files/Pods-XYKitDemo/Pods-XYKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		32496F8C9F941BE5DC619343 /* Pods-XYKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-XYKitDemo/Pods-XYKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6990A1DB7A7DB0BA77EEE937 /* libPods-XYKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37AD30D224CCCC9000AB0B1 /* XYKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37AD310224CCCC9000AB0B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E37AD311224CCCC9000AB0B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +113,8 @@
 		E37AD35C224CCD2F000AB0B1 /* NSDictionary+XYDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XYDictionary.h"; sourceTree = "<group>"; };
 		E37AD376224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XYButtonContentLayout.h"; sourceTree = "<group>"; };
 		E37AD377224CD00E000AB0B1 /* UIButton+XYButtonContentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XYButtonContentLayout.m"; sourceTree = "<group>"; };
+		E3B83743224E23D900F1FDCF /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		E3B83744224E23D900F1FDCF /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,18 +122,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DEFAD4C596FD0A71D30FD1 /* libPods-XYKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220062E52DD66B3FC20A9DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6990A1DB7A7DB0BA77EEE937 /* libPods-XYKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A34877AF9D240CF382704029 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32496F8C9F941BE5DC619343 /* Pods-XYKitDemo.debug.xcconfig */,
+				064290598C0828D98F8F5BD9 /* Pods-XYKitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E37AD304224CCCC9000AB0B1 = {
 			isa = PBXGroup;
 			children = (
 				E37AD326224CCD2F000AB0B1 /* XYKit */,
 				E37AD30F224CCCC9000AB0B1 /* XYKitDemo */,
 				E37AD30E224CCCC9000AB0B1 /* Products */,
+				A34877AF9D240CF382704029 /* Pods */,
+				220062E52DD66B3FC20A9DC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +172,8 @@
 				E37AD311224CCCC9000AB0B1 /* AppDelegate.m */,
 				E37AD313224CCCC9000AB0B1 /* ViewController.h */,
 				E37AD314224CCCC9000AB0B1 /* ViewController.m */,
+				E3B83743224E23D900F1FDCF /* ViewController1.h */,
+				E3B83744224E23D900F1FDCF /* ViewController1.m */,
 				E37AD316224CCCC9000AB0B1 /* Main.storyboard */,
 				E37AD319224CCCCA000AB0B1 /* Assets.xcassets */,
 				E37AD31B224CCCCA000AB0B1 /* LaunchScreen.storyboard */,
@@ -224,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E37AD323224CCCCA000AB0B1 /* Build configuration list for PBXNativeTarget "XYKitDemo" */;
 			buildPhases = (
+				C9F9E943809886120141C390 /* [CP] Check Pods Manifest.lock */,
 				E37AD309224CCCC9000AB0B1 /* Sources */,
 				E37AD30A224CCCC9000AB0B1 /* Frameworks */,
 				E37AD30B224CCCC9000AB0B1 /* Resources */,
@@ -282,6 +312,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9F9E943809886120141C390 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E37AD309224CCCC9000AB0B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,6 +362,7 @@
 				E37AD371224CCD30000AB0B1 /* UIButton+XYButton.m in Sources */,
 				E37AD35D224CCD30000AB0B1 /* UIDevice+XYDevice.m in Sources */,
 				E37AD367224CCD30000AB0B1 /* UIView+XYView.m in Sources */,
+				E3B83745224E23D900F1FDCF /* ViewController1.m in Sources */,
 				E37AD369224CCD30000AB0B1 /* UIBarButtonItem+XYBarButtonItem.m in Sources */,
 				E37AD373224CCD30000AB0B1 /* NSFileManager+XYFileManager.m in Sources */,
 				E37AD312224CCCC9000AB0B1 /* AppDelegate.m in Sources */,
@@ -455,6 +511,7 @@
 		};
 		E37AD324224CCCCA000AB0B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32496F8C9F941BE5DC619343 /* Pods-XYKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +529,7 @@
 		};
 		E37AD325224CCCCA000AB0B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064290598C0828D98F8F5BD9 /* Pods-XYKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

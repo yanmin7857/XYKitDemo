@@ -18,4 +18,10 @@
 /** 在当前视图控制器中添加子控制器，将子控制器的视图添加到view中 */
 - (void)wh_addChildController:(UIViewController *)childController intoView:(UIView *)view;
 
+- (void)pushController:(NSString *)name params:(NSDictionary *)param completion:(void (^)(id result))completion;
+
+- (void)presentController:(NSString *)name params:(NSDictionary *)param completion:(void (^)(id result))completion;
+
+@property (nonatomic,copy) void(^completion)(id result);
+@property (nonatomic,strong) NSDictionary *param;
 @end
